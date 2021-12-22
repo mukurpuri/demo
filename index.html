@@ -4292,7 +4292,11 @@
             $("#result").show();
             $("#faram").hide();
             localStorage.setItem("vidhayak",current_name);
-        })
+        });
+
+        $(".certz").on("click", function() {
+            location.reload(true);
+        });
     });
 </script>
 </html>
